@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* ==================header============== */
+a {
+    text-decoration: none;
+}
+
+h5 {
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* =================section-1============ */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 15px;
+}
+
+.col-8 .row {
+    margin: -15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000;
+    padding: 34px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button {
+    background-color: transparent;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.box {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.box:hover .inner-box {
+    bottom: 23px;
+    left: 22px;
+}
+
+.box img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.inner-box {
+    position: absolute;
+    bottom: -35px;
+    left: 0px;
+    transition: 0.6s;
+}
+
+.inner-box p {
+    color: #fff;
+    font-weight: 400;
+}
+
+.box-button {
+    border: none;
+    border-radius: 3px;
+    background: #4A90E2;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    transition: 0.6s;
+}
+
+.box:hover .box-button {
+    top: 30px;
+    left: 22px;
+}
+
+/* ===============section-2================ */
+.section-2 {
+    padding: 70px;
+}
+
+.cars {
+    display: flex;
+}
+
+.cars-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 0;
+    gap: 50px;
+}
+
+.text-car {
+    background-color: #fff;
+
+    border-radius: 5px;
+    height: 250px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.car-list {
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+}
+
+.text-car {
+    margin: -135px 0 0;
+    max-width: 730px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 4px 16px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.title-list {
+    max-width: 750px;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+.heading {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 0px 10px;
+    width: 100%;
+}
+
+.article-rickie {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+
+.article-title {
+    width: 614px;
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+
+.heading {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.article-rickie {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.article-title {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.car-button {
+    position: absolute;
+    margin-top: 45px;
+}
+
+/*  ============carousel=============*/
+.carousel {
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+/* ===================most popular================ */
+.box-mini-cards {
+    position: relative;
+}
+
+.bmw-pop {
+    position: absolute;
+    padding: 20px 25px;
+}
+
+.bmw-button {
+    border-radius: 3px;
+    border: none;
+    background: #4A90E2;
+    padding: 4px 18px 6px;
+}
+
+/* =================section-3============== */
+.section-3 {
+    background-color: #171717;
+    height: 100%;
+    padding-top: 65px;
+    padding-bottom: 50px;
+
+}
+
+.text-last {
+    padding-top: 30px;
+    padding-bottom: 65px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text-title {
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.post-card {
+    display: flex;
+    gap: 20px;
+}
+
+.text-subtitle {
+
+}
